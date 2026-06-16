@@ -1,40 +1,53 @@
 # robots.txt for aigniteinsights.com
 # We welcome search and AI answer-engine crawlers.
+# /r/ holds private client reports and is off-limits to all crawlers.
 
 User-agent: *
 Allow: /
+Disallow: /r/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /r/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /r/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /r/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /r/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /r/
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /r/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /r/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /r/
 
 User-agent: CCBot
 Allow: /
+Disallow: /r/
 
 User-agent: Amazonbot
 Allow: /
+Disallow: /r/
 
 User-agent: Meta-ExternalAgent
 Allow: /
+Disallow: /r/
 
 Sitemap: https://aigniteinsights.com/sitemap.xml
