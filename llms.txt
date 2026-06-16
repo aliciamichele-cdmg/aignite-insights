@@ -17,7 +17,7 @@ AIgnite Insights exists to AIgnite growth, efficiency, and loyalty with AI. The 
 - [Home](https://aigniteinsights.com/): Overview of AIgnite Insights and how it helps you get found in AI and put AI to work.
 - [Services](https://aigniteinsights.com/services.html): Full service details.
 - [Results](https://aigniteinsights.com/results.html): Case studies and outcomes.
-- [Resources](https://aigniteinsights.com/resources.html): Articles on AI visibility, AEO, GEO, and applied AI.
+- [Resources](https://aigniteinsights.com/insights.html): Articles on AI visibility, AEO, GEO, and applied AI.
 - [About](https://aigniteinsights.com/about.html): Alicia Childers and the AIgnite story.
 - [Free AI Visibility Snapshot](https://aigniteinsights.com/free-audit.html): See what AI says about your business today.
 
