@@ -249,3 +249,15 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:700;line-height:1.12;letter
 .founder-photo{position:relative;aspect-ratio:1/1;border-radius:var(--radius);background:linear-gradient(135deg,#11161f,#243044);box-shadow:var(--shadow);overflow:hidden;display:grid;place-items:center}
 .founder-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%}
 .founder-photo .mono{font-family:var(--font-head);font-weight:700;font-size:4.5rem;background:linear-gradient(120deg,var(--orange-bright),var(--electric));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+/* ===== Insights / articles ===== */
+.article-meta{display:flex;flex-wrap:wrap;gap:14px;align-items:center;color:var(--muted);font-size:.95rem;margin-top:14px}
+.article-meta .tag{display:inline-block;background:rgba(43,123,255,.10);color:var(--electric-deep);font-weight:600;font-size:.8rem;letter-spacing:.02em;padding:4px 10px;border-radius:999px}
+.article-body{max-width:760px}
+.article-body .lead{font-size:1.2rem;line-height:1.6;color:var(--ink);font-weight:500;margin-bottom:22px}
+.article-body h2{font-family:var(--font-head);font-size:1.5rem;margin:32px 0 10px}
+.article-body .takeaway{background:var(--soft);border-left:4px solid var(--orange);border-radius:10px;padding:18px 22px;margin:26px 0}
+.article-body .takeaway b{color:var(--orange)}
+.article-source{margin-top:30px;padding-top:18px;border-top:1px solid var(--line,#e7e9ee);color:var(--muted);font-size:.92rem}
+.post-card .tag{display:inline-block;background:rgba(43,123,255,.10);color:var(--electric-deep);font-weight:600;font-size:.74rem;letter-spacing:.02em;padding:3px 9px;border-radius:999px;margin-bottom:12px}
+.post-card .post-date{display:block;color:var(--muted);font-size:.85rem;margin-top:10px}
