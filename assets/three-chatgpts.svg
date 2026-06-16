@@ -1,0 +1,124 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f3a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="628" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Header text -->
+  <text x="600" y="60" font-family="Georgia, serif" font-size="22" fill="#ffffff" text-anchor="middle" font-style="italic" opacity="0.95">One question. Three versions of ChatGPT.</text>
+  
+  <!-- Main headline -->
+  <text x="600" y="115" font-family="Georgia, serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="bold">"What is the weather today?"</text>
+
+  <!-- Three answer cards -->
+  
+  <!-- Card 1: Logged Out -->
+  <g transform="translate(60, 170)">
+    <rect width="340" height="380" rx="12" fill="#ffffff" filter="url(#shadow)"/>
+    
+    <!-- Tier label -->
+    <rect x="0" y="0" width="340" height="48" rx="12" fill="#dc2626"/>
+    <rect x="0" y="36" width="340" height="12" fill="#dc2626"/>
+    <text x="170" y="32" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" letter-spacing="1">LOGGED OUT, FREE</text>
+    
+    <!-- Answer -->
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">The answer:</text>
+    <text x="170" y="145" font-family="Georgia, serif" font-size="38" fill="#0a0e27" text-anchor="middle" font-weight="bold">90°</text>
+    <text x="170" y="180" font-family="Arial, sans-serif" font-size="18" fill="#0a0e27" text-anchor="middle">and sunny</text>
+    
+    <!-- Divider -->
+    <line x1="40" y1="210" x2="300" y2="210" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- What happened -->
+    <text x="170" y="240" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-weight="bold" letter-spacing="0.5">UNDER THE HOOD</text>
+    
+    <text x="20" y="270" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Smaller model, no reasoning</text>
+    <text x="20" y="293" font-family="Arial, sans-serif" font-size="13" fill="#374151">• General web search</text>
+    <text x="20" y="316" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Pulled stale January results</text>
+    <text x="20" y="339" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Ignored them, made up answer</text>
+    <text x="20" y="362" font-family="Arial, sans-serif" font-size="13" fill="#dc2626" font-weight="bold">• Faked NWS citations</text>
+  </g>
+
+  <!-- Card 2: Logged In Free -->
+  <g transform="translate(430, 170)">
+    <rect width="340" height="380" rx="12" fill="#ffffff" filter="url(#shadow)"/>
+    
+    <!-- Tier label -->
+    <rect x="0" y="0" width="340" height="48" rx="12" fill="#d97706"/>
+    <rect x="0" y="36" width="340" height="12" fill="#d97706"/>
+    <text x="170" y="32" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" letter-spacing="1">LOGGED IN, FREE</text>
+    
+    <!-- Answer -->
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">The answer:</text>
+    <text x="170" y="145" font-family="Georgia, serif" font-size="32" fill="#0a0e27" text-anchor="middle" font-weight="bold">It depends</text>
+    <text x="170" y="180" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle" font-style="italic">on memory, history, &amp; routing</text>
+    
+    <!-- Divider -->
+    <line x1="40" y1="210" x2="300" y2="210" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- What happened -->
+    <text x="170" y="240" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-weight="bold" letter-spacing="0.5">UNDER THE HOOD</text>
+    
+    <text x="20" y="270" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Personalization layer active</text>
+    <text x="20" y="293" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Custom instructions apply</text>
+    <text x="20" y="316" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Memory shapes retrieval</text>
+    <text x="20" y="339" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Different sources surface</text>
+    <text x="20" y="362" font-family="Arial, sans-serif" font-size="13" fill="#d97706" font-weight="bold">• Different answer per user</text>
+  </g>
+
+  <!-- Card 3: Logged In Paid -->
+  <g transform="translate(800, 170)">
+    <rect width="340" height="380" rx="12" fill="#ffffff" filter="url(#shadow)"/>
+    
+    <!-- Tier label -->
+    <rect x="0" y="0" width="340" height="48" rx="12" fill="#059669"/>
+    <rect x="0" y="36" width="340" height="12" fill="#059669"/>
+    <text x="170" y="32" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" letter-spacing="1">LOGGED IN, PAID</text>
+    
+    <!-- Answer -->
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">The answer:</text>
+    <text x="170" y="145" font-family="Georgia, serif" font-size="38" fill="#0a0e27" text-anchor="middle" font-weight="bold">68°</text>
+    <text x="170" y="180" font-family="Arial, sans-serif" font-size="18" fill="#0a0e27" text-anchor="middle">brief shower, mixed</text>
+    
+    <!-- Divider -->
+    <line x1="40" y1="210" x2="300" y2="210" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- What happened -->
+    <text x="170" y="240" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-weight="bold" letter-spacing="0.5">UNDER THE HOOD</text>
+    
+    <text x="20" y="270" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Reasoning model</text>
+    <text x="20" y="293" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Structured data API call</text>
+    <text x="20" y="316" font-family="Arial, sans-serif" font-size="13" fill="#374151">• Interactive widget rendered</text>
+    <text x="20" y="339" font-family="Arial, sans-serif" font-size="13" fill="#374151">• No web search at all</text>
+    <text x="20" y="362" font-family="Arial, sans-serif" font-size="13" fill="#059669" font-weight="bold">• Accurate, no fabrication</text>
+  </g>
+
+  <!-- Bottom punchline -->
+  <text x="600" y="595" font-family="Georgia, serif" font-size="20" fill="#ffffff" text-anchor="middle" font-style="italic">Same product name. Three completely different systems.</text>
+  
+</svg>
