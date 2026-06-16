@@ -49,7 +49,7 @@
       fetch(FORMSPREE, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) })
         .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, body: j }; }, function () { return { ok: r.ok }; }); })
         .then(function (r) {
-          if (r.ok) { setStatus(form, "Thank you. Your AI Visibility Snapshot is on its way.", true); form.reset(); }
+          if (r.ok) { setStatus(form, "Thank you! You're all set. Alicia reviews every request personally and will be in touch within one business day.", true); form.reset(); }
           else { setStatus(form, "Something went wrong. Please email Alicia@AigniteInsights.com.", false); }
         })
         .catch(function () { setStatus(form, "Could not send just now. Please email Alicia@AigniteInsights.com.", false); })
